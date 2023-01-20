@@ -1,0 +1,44 @@
+old_topic,action,new_topic,utterances,utterances(%)
+avoiding DOI,Merged to topic 10-compliance with rules,compliance with rules,394,4.06%
+charging battery,Merged to topic 10-compliance with rules,compliance with rules,29,0.30%
+engaging in community activities,Merged to topic 10-compliance with rules,compliance with rules,17,0.18%
+not getting into a car with someone who is under the influence of drugs or alcohol,Merged to topic 10-compliance with rules,compliance with rules,6,0.06%
+diet; reducing alcohol consumption; diabetes management,Merged to topic 11 -diabetes management,diabetes management,40,0.41%
+anxiety management,Merged to topic 17 - managing life,managing life,79,0.81%
+better oral health,Merged to topic 17 - managing life,managing life,97,1.00%
+more exercise / increasing activity,Merged to topic 17 - managing life,managing life,459,4.73%
+recognising success,Merged to topic 17 - managing life,managing life,11,0.11%
+taking steps towards getting help with day-care,Merged to topic 17 - managing life,managing life,57,0.59%
+reducing alcohol consumption; compliance with rules,Merged to topic 28 -reducing alcohol consumption,reducing alcohol consumption,31,0.32%
+reducing alcohol consumption; safe sex,Merged to topic 28 -reducing alcohol consumption,reducing alcohol consumption,55,0.57%
+reducing drug use; following medical procedure,Merged to topic 31 - reducing drug use,reducing drug use,59,0.61%
+Being assertive with flatmate about moving out,Merged to topic 34- reducing self-harm,motivated towards adopting better life style,62,0.64%
+completion of community service,Merged to topic 34- reducing self-harm,motivated towards adopting better life style,46,0.47%
+increasing self-confidence,Merged to topic 34- reducing self-harm,motivated towards adopting better life style,50,0.52%
+reducing coffee consumption,Merged to topic 34- reducing self-harm,motivated towards adopting better life style,51,0.53%
+reducing violence,Merged to topic 34- reducing self-harm,motivated towards adopting better life style,41,0.42%
+diagnosis,Merged to topic 39-taking medicine / following medical procedure,adhering to medical procedure,21,0.22%
+increasing activity; taking medicine / following medical procedure,Merged to topic 39-taking medicine / following medical procedure,adhering to medical procedure,126,1.30%
+providing information on medicines,Merged to topic 39-taking medicine / following medical procedure,adhering to medical procedure,19,0.20%
+problem recognition,Merged to topic 42-weight loss; diet,diet and weight loss management,16,0.16%
+weight loss,Merged to topic 42-weight loss; diet,diet and weight loss management,294,3.03%
+smoking cessation; reducing alcohol consumption,Merged to topic 28 -reducing alcohol consumption and 37 -smoking cessation,reducing alcohol consumption|smoking cessation,56,0.58%
+more exercise / increasing activity; weight loss,Merged to topics 42-weight loss; diet and 17 -managing life,diet and weight loss management|managing life,66,0.68%
+birth control,Deleted from Dataset,,36,0.37%
+opening up,Deleted from Dataset,,15,0.15%
+asthma management,Kept in Dataset,asthma management,224,2.31%
+changing approach to disease,Kept in Dataset,changing approach to disease,315,3.25%
+compliance with rules,Kept in Dataset,compliance with rules,146,1.51%
+diabetes management,Kept in Dataset,diabetes management,669,6.90%
+managing life,Kept in Dataset,managing life,86,0.89%
+overcoming issues at school,Kept in Dataset,addressing bullying,167,1.72%
+reducing alcohol consumption,Kept in Dataset,reducing alcohol consumption,1732,17.86%
+reducing drug use,Kept in Dataset,reducing drug use,519,5.35%
+reducing gambling,Kept in Dataset,reducing gambling,297,3.06%
+reducing recidivism,Kept in Dataset,reducing recidivism,1303,13.43%
+reducing self-harm,Kept in Dataset,motivated towards adopting better life style,54,0.56%
+smoking cessation,Kept in Dataset,smoking cessation,1050,10.83%
+supporting client to live in more alignment with her values,Kept in Dataset,adhering to family values,133,1.37%
+taking medicine / following medical procedure,Kept in Dataset,adhering to medical procedure,448,4.62%
+unidentifiable,Kept in Dataset,unidentifiable,287,2.96%
+weight loss; diet,Kept in Dataset,diet and weight loss management,36,0.37%
