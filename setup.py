@@ -16,8 +16,8 @@ setup(
     description="Demo library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Giacomo Medda & Vivek Singh",
-    author_email="giacomo.medda@unica.it",
+    author="",
+    author_email="",
     license="MIT",
     classifiers=[
         "Intended Audience :: Developers",
