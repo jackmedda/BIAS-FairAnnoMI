@@ -1,4 +1,4 @@
-# How Do You Feel? Information Retrieval in Psychotherapy and Fair Ranking Assessment
+## How Do You Feel? Information Retrieval in Psychotherapy and Fair Ranking Assessment
 
 In the folder "notebooks," there are two Jupyter notebooks:
 
