@@ -120,6 +120,7 @@ class AnnoMI(object):
                                                   dataset=None,
                                                   target_col='client_talk_type',
                                                   test_size=0.2,
+                                                  shuffle=True,
                                                   as_xy=False,
                                                   encode_target=True,
                                                   handle_multi_topic=True):
@@ -137,7 +138,8 @@ class AnnoMI(object):
         target_topic_gby = dataset.groupby([target_col, self._topic_field])
         for target, topic in list(target_topic_gby.groups.keys()):
             df = target_topic_gby.get_group((target, topic))
-            random_sample = df.sample(frac=1)
+            if shuffle:
+                random_sample = df.sample(frac=1)
             if random_sample.shape[0] < 2:
                 if handle_multi_topic:
                     multi_topics = topic.split(self._topic_sep)
