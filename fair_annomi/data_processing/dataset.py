@@ -137,10 +137,10 @@ class AnnoMI(object):
 
         target_topic_gby = dataset.groupby([target_col, self._topic_field])
         for target, topic in list(target_topic_gby.groups.keys()):
-            df = target_topic_gby.get_group((target, topic))
+            topic_df = target_topic_gby.get_group((target, topic))
             if shuffle:
-                random_sample = df.sample(frac=1)
-            if random_sample.shape[0] < 2:
+                topic_df = topic_df.sample(frac=1)
+            if topic_df.shape[0] < 2:
                 if handle_multi_topic:
                     multi_topics = topic.split(self._topic_sep)
                     topic_flag = False
@@ -149,14 +149,14 @@ class AnnoMI(object):
                             topic_flag = True
 
                     if topic_flag:
-                        train.append(random_sample)
+                        train.append(topic_df)
                         continue
 
                 raise ValueError(f"the configuration {(target, topic)} does not have enough rows to be split")
             else:
-                n_train = max(1, min(random_sample.shape[0] - 1, round(random_sample.shape[0] * train_size)))
-                train.append(random_sample.iloc[:n_train])
-                test.append(random_sample.iloc[n_train:])
+                n_train = max(1, min(topic_df.shape[0] - 1, round(topic_df.shape[0] * train_size)))
+                train.append(topic_df.iloc[:n_train])
+                test.append(topic_df.iloc[n_train:])
 
         train, test = pd.concat(train), pd.concat(test)
 
